@@ -13,6 +13,9 @@
 
 #include <cstdlib>
 #include <stdio.h>
+#include <string>
+#include <iosfwd>
+#include <iostream>
 
 using namespace std;
 
@@ -20,8 +23,14 @@ using namespace std;
  * 
  */
 int main(int argc, char** argv) {
+
+    int n1 = 0;
+    cout<< "Lendo o primeiro número: ";
+    cin>> n1;
     
-    printf("teste");
+    
+    printf("O primerio número é: %d", n1);
+    
     return 0;
 
 }
